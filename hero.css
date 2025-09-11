@@ -1,0 +1,41 @@
+.hero {
+    background-image: url(new-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 96px;
+}
+
+.conteudo-hero {
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {
+    width: 40rem;
+}
+
+i {
+    font-size: 32px;
+    color: white;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sociais {
+    display: flex;
+    gap: 20px;
+}

@@ -27,17 +27,6 @@
     width: 40rem;
 }
 
-i {
-    transition: 0.3s linear;
-    font-size: 32px;
-    color: white;
-}
-
-i:hover {
-    transform: translateY(-4px);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
-}
-
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -46,26 +35,4 @@ i:hover {
 .sociais {
     display: flex;
     gap: 20px;
-}
-
-.primario {
-    transition: 0.3s;
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.203);
-    border: 1px solid white;
-    backdrop-filter: blur(15px);
-    padding: 12px 36px;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-}
-
-.primario:hover {
-    transform: translateY(-8px) scale(1.05);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
-}
-
-.primario:active {
-    transform: translateY(2px);
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0);
 }

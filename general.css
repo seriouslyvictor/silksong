@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #090909;
     font-family: "trajan-pro-3", serif;
     font-weight: 400;
     font-style: normal;
@@ -12,7 +12,10 @@ h3 {
     font-family: "trajan-pro-3", serif;
     font-weight: 700;
     color: white;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.302), 0 0 16px rgba(255, 255, 255, 0.143);
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.45),
+        0 0 24px rgba(255, 255, 255, 0.25),
+        0 0 48px rgba(255, 255, 255, 0.12);
 }
 
 h2 {
@@ -20,8 +23,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.875rem;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .titulo-section {

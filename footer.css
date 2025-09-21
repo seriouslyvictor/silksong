@@ -1,0 +1,48 @@
+.site-footer {
+    background: #fff;
+    color: #222;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    font-family: "trajan-pro-3", serif;
+    border-top: 2px solid #e0e0e0;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+
+.footer-nav a {
+    color: #181818;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+}
+
+.footer-nav a i {
+    color: #181818;
+    text-shadow: 0 0 8px rgba(30, 30, 30, 0.28), 0 0 16px rgba(30, 30, 30, 0.18);
+    transition: all 0.4s
+}
+
+.footer-nav a:hover i {
+    color: #444;
+    text-shadow: 0 0 12px rgba(30, 30, 30, 0.38), 0 0 24px rgba(30, 30, 30, 0.22);
+    box-shadow: unset;
+
+}
+
+.footer-nav a:hover {
+    color: #888;
+}

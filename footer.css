@@ -1,10 +1,10 @@
 .site-footer {
-    background: #fff;
-    color: #222;
+    background: var(--color-white);
+    color: var(--color-text-dark);
     padding: 2rem 0 1rem 0;
     text-align: center;
     font-family: "trajan-pro-3", serif;
-    border-top: 2px solid #e0e0e0;
+    border-top: 2px solid var(--color-text-secondary);
     margin-top: 3rem;
 }
 
@@ -25,19 +25,19 @@
 
 
 .footer-nav a {
-    color: #181818;
+    color: var(--color-text-dark);
     font-size: 1.5rem;
     transition: color 0.2s;
 }
 
 .footer-nav a i {
-    color: #181818;
+    color: var(--color-text-dark);
     text-shadow: 0 0 8px rgba(30, 30, 30, 0.28), 0 0 16px rgba(30, 30, 30, 0.18);
     transition: all 0.4s
 }
 
 .footer-nav a:hover i {
-    color: #444;
+    color: var(--color-text-muted);
     text-shadow: 0 0 12px rgba(30, 30, 30, 0.38), 0 0 24px rgba(30, 30, 30, 0.22);
     box-shadow: unset;
 
